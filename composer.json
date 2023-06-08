@@ -1,0 +1,40 @@
+{
+    "name": "mauriziocingolani/yii2-components-zoom-oauth",
+    "description": "Componente per la gestione di Zoom su Yii2 con nuova autenticazione oAuth",
+    "keywords": [
+        "yii2",
+        "zoom",
+        "component"
+    ],
+    "authors": [
+        {
+            "name": "Maurizio Cingolani",
+            "email": "mauriziocingolani74@gmail.com",
+            "homepage": "http://www.mauriziocingolani.it"
+        }
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "^2.0.35"
+    },
+    "autoload": {
+        "psr-4": {
+            "mauriziocingolani\\yii2componentszoom\\": "/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset": {
+            "enabled": false
+        }
+    }
+}
