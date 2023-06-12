@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\components;
+namespace mauriziocingolani\yii2componentszoomoauth;
 
 use yii\base\Component;
 
@@ -8,7 +8,7 @@ use yii\base\Component;
  * Componente per la gestione delle funzionalità Zoom con il nuovo meccanismo di autenticazione OAuth.
  * @author Maurizio Cingolani <mauriziocingolani74@gmail.com>
  * @license http://opensource.org/licenses/BSD-3-Clause BSD-3-Clause
- * @version 1.0.4
+ * @version 1.0.5
  */
 class ZoomOAuth extends Component {
 
